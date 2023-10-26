@@ -1,0 +1,191 @@
+<html>
+  <head>
+    <title>Beckies Baby Store</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!--Header-->
+      <section>
+      <div class="header">
+        <div class="header-left">
+          <a href="home page.html" target="_blank">
+            <img src="images/baby-products-mumbai.jpg" class="loggocomlogo" />
+          </a>
+        </div>
+        <div class="header-right">
+          <div class="header-right-top">
+            <ul>
+              <li>
+                <a href=""><i class="fa fa-facebook"></i>&nbsp;</a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-right-bottom"></div>
+        </div>
+      </div>
+      <div class="title">
+        <h1>Lipa na M-pesa</h1>
+      </div>
+      <!--Menu bar-->
+
+      <div class="ftl_menu">
+        <ul id="navbar">
+          <li><a href="homepage.html">Home</a></li>
+
+          <li><a href="product page.html">Products</a></li>
+          <li><a href="Payment.html">Payment</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      </section>
+       <!--This is the payment form-->
+   <section>
+    <div class="mpesa">
+    <form
+                style="
+                  font-family: 'Dekko';
+                  font-size: 30px;
+                  margin-top: 1px;
+                  margin-bottom: 1px;
+                  width: 300px;
+                  border: 10px solid red; 
+                  width: 500px;
+                  margin-left: 400px;
+                  display: flex;
+                  flex-direction: column;
+                "
+                action="save_booking.php"
+                method="POST"
+              >
+
+                <label for="name"></label>
+                <input
+                  style="
+                    font-family: 'Dekko';
+                    font-size: 19px;
+                    margin-top: 15px; 
+                    width: 400px;
+                    background: inherit;
+                    border: 5px solid green;
+                    border-radius: 5px;
+                    /* color: white; */
+                  "
+                  type="text"
+                  name="user_name"
+                  placeholder="Full Name*"
+                  id="name"
+                  required
+                />
+
+                <label class="phone" for="phone"></label>
+                <input
+                  style="
+                    font-family: 'Dekko';
+                    font-size: 19px;
+                    margin-top: 10px;
+                    width: 400px;
+                    background: inherit;
+                    border: 5px solid green;
+                    border-radius: 5px;
+                  
+                    /* margin-left: 10px; */
+                  "
+                  type="tel"
+                  name="phone"
+                  placeholder="Phone*"
+                  id="phone"
+                  required
+                /><br />
+
+                <label for="email"></label>
+                <input
+                  style="
+                    font-family: 'Dekko';
+                    font-size: 19px;
+                    margin-top: -20px;
+                    width: 400px;
+                    background: inherit;
+                    border: 5px solid green;
+                    border-radius: 5px;
+                  
+                  "
+                  type="email"
+                  name="email"
+                  placeholder="Email Address*"
+                  id="email"
+                  required
+                /><br />
+                
+                <!-- Add more fields as needed -->
+
+                <input
+                  style="
+                    font-family: 'Dekko';
+                    width: 150px;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    margin-bottom: 50px;
+                    border-radius: 50px;
+                    background-color: green;
+                    cursor: pointer;
+                    border: none;
+                  "
+                  class="submit"
+                  type="submit"
+                  value="Submit"
+                />
+              </form> 
+            </div>
+   </section>
+    <!--Footer -->
+    <div class="footer">
+        <div class="footer-parts">
+          <div class="footer-parts-h4">Newsletter</div>
+          <div class="about-footer">
+            Don't miss out! Join our newsletter today through the following
+            social links:
+          </div>
+        </div>
+        <div class="footer-parts">
+          <div class="footer-parts-h4">Social Links</div>
+          <br />
+          <div style="padding-left: 20px; font-size: 22px">
+            <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+            &nbsp; &nbsp;
+            <a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+            &nbsp; &nbsp;
+            <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+            &nbsp; &nbsp;
+          </div>
+          <div
+            style="padding-left: 20px; padding-top: 15px; font-size: 22px"
+          ></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="copyrights">
+          <div class="copyrights-left">
+            &copy; 2023. All rights reserved by
+            <a href="" target="_blank">Beckies baby store</a>.
+          </div>
+          <div class="copyrights-right">
+            Designed by:<br />
+            <a href="" target="_blank"
+              >Becky</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+  
